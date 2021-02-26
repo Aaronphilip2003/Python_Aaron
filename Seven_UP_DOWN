@@ -1,0 +1,18 @@
+import random as rand
+print("This is a Seven Up and seven Down game")
+money=int(input("Enter the amount you want to gamble with:"))
+a=int(input("Enter a number between 1 and 10:"))
+random= rand.randint(1,10)
+print("The number was:",random)
+if a>7 and random>7 :
+  total=int(money*2)
+elif a<7 and random<7:
+  total=int(money*2)
+elif a == random :
+  total=int(money*3)
+else:
+  print("You Lost your Money. Better Luck next time!")
+  total=0
+
+print("Your total is:",total)
+print("Thank you for playing with us!")
