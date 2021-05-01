@@ -40,7 +40,7 @@ if player==2:
 
 if player==3:
     if comp==1:
-        print("ou Lost! The computer chose Rock")
+        print("You Lost! The computer chose Rock")
     elif comp==2:
         print("You Won! The computer chose Paper")
     elif comp==3:
